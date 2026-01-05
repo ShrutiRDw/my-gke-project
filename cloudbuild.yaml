@@ -14,3 +14,5 @@ steps:
       # ⚠️ MAKE SURE THESE MATCH YOUR ACTUAL CLUSTER DETAILS
       - 'CLOUDSDK_COMPUTE_ZONE=us-central1'
       - 'CLOUDSDK_CONTAINER_CLUSTER=my-first-cluster'
+options:
+  logging: CLOUD_LOGGING_ONLY
